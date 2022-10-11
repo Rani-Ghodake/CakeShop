@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>product</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="popper.js"></script>
+	<script type="text/javascript" src="bootstrap.js"></script>	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="Master.css">
+	<style>
+	.sec{
+	background-image:url(img/pic19.jpg);
+	height:150px;
+	width:100%;
+	background-size:100% 120%;
+	}
+	h4:hover{
+	transform:scale(0.9);
+	height:40px;
+	}
+	.card{
+	width:18rem;height:36rem}
+	.checked{
+	color:yellow
+	}
+	.card:hover{
+	transform:scale(0.8);
+	height:500px;
+	background:yellow
+	}
+	@font face{
+	font-family:myfont;
+	src:url("Brush Script MT");
+	}
+	.container-fluid h1{
+	font-family:myfont;
+	}
+	.modal-body{
+	background-image:url(img/pic12.jpg);
+	background-size:100% 100%;
+	height:auto;
+	}
+	td{
+	color:white;
+	}
+	.row{
+		margin-left:0;
+		margin-right:0;
+		}
+	</style>
+	</head>
+<body>
+<div class="container-fluid">
+<div class="row" style="background:#2E1503">
+<div class="col-xl-3 col-md-3 col-lg-12 col-sm-12 col-12">
+
+					<img src="img/pic2.jpg" class="img-fluid mx-auto d-block" style="margin-left:180px;height:150px;width:200px">
+    </div>
+<div class="col-xl-6 col-md-6 col-lg-12 col-sm-12 col-12">
+	
+	<h1 style="text-align:center;font-size:50px;color:white">SUGAR BITES</h1><h4 style="text-align:center;color:white">A slice of heaven.</h4>
+	</div>
+	<div class="col-xl-3 col-md-3 col-lg-12 col-sm-12 col-12">
+
+	<img src="img/logo.jpg" class="img-fluid mx-auto d-block" height="120" width="190">
+</div>
+</div>
+</div>
+<nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"><a class="nav-link"  href="index.html" style="width: 110px; text-align: center;">INDEX</a></li>
+					<li class="nav-item"><a class="nav-link"  href="about.html" style="width: 160px; text-align: center;">ABOUT</a></li>
+					<li class="nav-item active" style="border-bottom: 3px solid #ff0000; font-size: 17px;"><a class="nav-link"  href="product.html" style="width: 160px; text-align: center;">PRODUCT</a></li>
+					<li class="nav-item"><a class="nav-link"  href="review.html" style="width: 110px; text-align: center;">REVIEW</a></li>
+					<li class="nav-item"><a class="nav-link"  href="Contact.html" style="width: 110px; text-align: center;">CONTACT</a></li>
+				</ul>
+			</div>	
+		</div>
+	</nav>
+	<div class="sec">
+	<div class="container">
+	<!--button to open the Modal-->
+	<button type="button" class="btn btn-danger d-block mx-auto" data-toggle="modal" data-target="#myModal">
+	Order Cakes Click Here
+	</button>
+	<!--The Modal-->
+	<div class="modal" id="myModal">
+	<div class="modal-dialog">
+	<div class="modal-content">
+	<!--Modal Header-->
+	<div class="modal-header" style="background:#2E1503;color:white;">
+	<h3 class="modal-title">Fill This Form For Best Cakes....</h3>
+	
+	</div>
+	<!--Modal body-->
+	<div class="modal-body">
+	<form>
+
+    <tr><td>Name(Required)</td><td><input type="text" placeholder="Name" style="background:#2E1503;height:40px;width:200px;color:white" autofocus/></td></tr>
+	<br><br>
+	
+	&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tr><td>Email</td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<td><input type="email" placeholder="Email" style="background:#2E1503;height:40px;width:200px;color:white"></td></tr><br><br>
+	
+	<tr><td>Date of birth</td><td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="date"style="background:#2E1503;height:40px;width:200px;color:white"></td></tr><br><br>
+	<tr><td>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select class="form-select" aria-label="Default select example">
+  <option selected>Which Cakes You Want?</option>
+  <option value="1">Black Forest</option>
+  <option value="2">Red Velvet</option>
+  <option value="3">Fruit Cake</option>
+  <option value="3">chocolate Cake</option>
+  <option value="3">Birthday Cake</option>
+  <option value="3">Anniversary Cake</option>
+  <option value="3">Pinata Cake</option>
+  <option value="3">Cup Cake</option>
+</select>
+	</td></tr>
+<tr><td>
+<br><br><input type="submit" class="d-block mx-auto" style="background:#2E1503;color:white;" value="SUBMIT"/>
+</td></tr>
+</form>
+<br>
+
+	</div></div></div>
+	</div></div></div>
+	
+	<div class="container-fluid" style="background:#2E1503">
+	<div class="row">
+	<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+	<div class="card" style="width:18rem;height:36rem">
+  <img class="card-img-top" src="img/pic20.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Black Forest Cake</h5>
+    <p class="card-text">Black Forest gateau consists of several layers of chocolate sponge cake sandwiched with whipped cream and cherries.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"  style="padding-left:100px">
+	
+	
+<span class="fa fa-star checked "></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></li>
+    <li class="list-group-item"  style="padding-left:100px">300rs-600rs</li>
+    
+  </ul>
+	</div>
+	</div>
+		<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+
+	<div class="card" style="width:18rem;height:36rem">
+  <img class="card-img-top" src="img/pic26.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Chocolate Cadbury Cake</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"  style="padding-left:100px">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></li>
+    <li class="list-group-item"  style="padding-left:100px">200rs-750rs</li>
+  
+  </ul>
+	</div>
+	</div>
+		<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+
+	<div class="card" style="width:18rem;height:36rem">
+  <img class="card-img-top" src="img/pic27.webp" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Anniversary Cake</h5>
+    <p class="card-text">Order delicious anniversary cake online from Winni and surprise your loved ones.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"  style="padding-left:100px">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></li>
+    <li class="list-group-item"  style="padding-left:100px">300rs-1000rs</li>
+  </ul>
+	</div>
+	</div>
+	<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+	<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="img/pic28.webp" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Wedding Cake</h5>
+    <p class="card-text">From metallic accents and fresh flowers to intricate details, we rounded up the most creative wedding cake ideas for every type of bride..</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"  style="padding-left:100px">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></li>
+    <li class="list-group-item"  style="padding-left:100px">400rs-3000rs</li>
+    
+  </ul>
+  </div>
+  </div>
+  
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+  <div class="card" style="width: 18rem;margin-top:30px">
+  <img class="card-img-top" src="img/pic10.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Cartoon Theme Cake</h5>
+    <p class="card-text">Wish your kids in a unique style by ordering a wonderful cartoon cake.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"  style="padding-left:100px">
+	<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></li>
+    <li class="list-group-item"  style="padding-left:100px">400rs-1000rs</li>
+  </ul>
+  </div>
+  </div>
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+  <div class="card" style="width: 18rem;margin-top:30px">
+  <img class="card-img-top" src="img/pic32.webp" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Cup Cakes</h5>
+    <p class="card-text">A cupcake is a small cake designed to serve one person, which may be baked in a small thin paper or aluminum cup.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"  style="padding-left:100px">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></li>
+    <li class="list-group-item"  style="padding-left:100px">100rs-500rs</li>
+ 
+  </ul>
+  </div>
+  </div>
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+   <div class="card" style="width: 18rem;margin-top:30px">
+  <img class="card-img-top" src="img/pic25.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Rasmalai Cake</h5>
+    <p class="card-text">It is an eggless sponge cake soaked with the rasmalai milk (ras or syrup) topped with rasmalai flavored whipped cream and garnished with nuts.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"  style="padding-left:100px">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></li>
+    <li class="list-group-item"  style="padding-left:100px">300rs-800rs</li>
+
+  </ul>
+  </div>
+  </div>
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+  <div class="card" style="width: 18rem;margin-top:30px">
+  <img class="card-img-top" src="img/pic20.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Chocolate Cake</h5>
+    <p class="card-text"> We offer freshly baked heart shapes, eggless & designer chocolate cakes.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" style="padding-left:100px">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span></li>
+    <li class="list-group-item"  style="padding-left:100px">200rs-500rs</li>
+  
+  </ul>
+</div>
+</div>
+<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+  <div class="card" style="width:18rem;margin-top:30px">
+  <img class="card-img-top" src="img/pic29.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Pinata Cake</h5>
+    <p class="card-text">A Pinata cake with hammer is a cake that hides within a shell made of milk or dark chocolate and comes with a hammer.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"  style="padding-left:80px">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></li>
+    <li class="list-group-item"  style="padding-left:80px">600rs-1000rs</li>
+ 
+  </ul>
+  </div>
+  </div>
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+  <div class="card" style="width: 18rem;margin-top:30px">
+  <img class="card-img-top" src="img/pic30.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Pastry</h5>
+    <p class="card-text">We Have Also Available All Type Of Pastry Order freshly baked pastry cakes from your favourite online baking store.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"  style="padding-left:80px">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span></li>
+    <li class="list-group-item"  style="padding-left:80px">100-500rs</li>
+ 
+  </ul>
+  </div>
+  </div>
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+  <div class="card" style="width: 18rem;margin-top:30px">
+  <img class="card-img-top" src="img/pic31.jpeg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Fruit Cakes</h5>
+    <p class="card-text">fruit cakes from many varieties like mix fruits, apple, mango, coconut cake.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"  style="padding-left:80px">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></li>
+    <li class="list-group-item"  style="padding-left:80px">400rs-800rs</li>
+ 
+  </ul>
+  </div>
+  </div>
+  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+  <div class="card" style="width:18rem;margin-top:30px"">
+  <img class="card-img-top" src="img/pic23.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Dark chocolate Cakes</h5>
+    <p class="card-text"> icing made with cream cheese, cocoa, and cinnamon frosts this dark chocolate cake for an elegant dessert.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"  style="padding-left:100px">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></li>
+    <li class="list-group-item"  style="padding-left:80px">200rs-700rs</li>
+ 
+  </ul>
+  </div>
+  </div>
+	</div>
+	</div>
+	<footer style="background:#2E1503">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h4 style="text-align:center;color:white;">@ 2022 CAKE SHOP. All Copy Rights Reserved. </h4>
+			</div>
+		</div>
+	</footer>
+	</body>
+	</html>
